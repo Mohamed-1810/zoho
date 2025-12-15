@@ -13,8 +13,9 @@ public class MainTest {
     } 
 
 	@Test 
-	void add_shouldReturnSum(){
+	void add_shouldReturnSum1(){
 		int result = Main.add(3,3);
 		assertEquals(7,result);
+	}
 
 }
